@@ -1,0 +1,130 @@
+\documentclass[]{report}
+\usepackage[margin=2cm]{geometry}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[OT1]{fontenc}
+
+
+
+%\usepackage{lipsum}
+
+\usepackage{array, xcolor}
+\definecolor{lightgray}{gray}{0.8}
+\newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
+\newcolumntype{R}{p{0.8\textwidth}}
+\newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
+
+\setlength{\columnseprule}{0.1pt}
+\def\columnseprulecolor{\color{black}}
+
+\author{Виталий Епифанцев}
+\begin{document}
+
+\section*{\huge Виталий Епифанцев}
+\textit{\large C++ разработчик}
+
+
+\section*{\Large Персональная информация}
+
+\begin{multicols}{3}
+
+\section*{Контакты}
+\hrule\medskip
+Phone:\\\smallskip +79620783324\\
+E-mail:\\\smallskip vitaliy.epifantsev@yandex.ru
+
+\columnbreak
+
+\section*{Git}
+\hrule\medskip
+Git:\\\smallskip \href{http://www.github.com/DubKoldun}{github.com/DubKoldun}\\
+\\\smallskip 
+
+\columnbreak
+
+\section*{Социальные сети}
+\hrule\medskip
+VK:\\\smallskip \href{http://www.vk.com/bogg_art}{vk.com/bogg\_art}\\
+TG:\\\smallskip \href{http://www.t.me/difficultsense}{t.me/difficultsense}
+\columnbreak
+
+\end{multicols}
+
+
+
+\section*{\Large Образование}
+
+\begin{tabular}{L!{\VRule}R}
+2017 -- настоящее время& Студент университета ИТМО, факультет информационных технологий и программирования. Направление: прикладная математика и информатика.
+%2017--2021&BSc in Computer Technologies, Great University, Country.\\ %[5pt]
+\end{tabular}
+
+%\section*{Professional Experience}
+%\begin{tabular}{L!{\VRule}R}
+%2011--today&{\bf Work at company XY.}\\
+%&\lipsum[66]\\[5pt]
+%2008--2010&{\bf Trainee at company ZY.}\\
+%&\lipsum[66]\\
+%\end{tabular}
+
+\section*{Ключевые навыки}
+
+\begin{enumerate}
+
+\item {{\large Опыт многопоточного программирования}}
+\item {{\large Git (VSC)}}
+\item {{\large Объектно-Ориентированное программирование и соответствующие принципы}}
+
+\end{enumerate}
+
+\section*{Языки программирования и соответствующие фреймворки}
+
+\begin{enumerate}
+
+\item {
+	\textsc{C++}
+	\begin{itemize}
+		\item {QT Creator}
+		\item {C++11/C++14/C++17 стандарты}
+	\end{itemize}
+}
+
+\item {
+	\textsc{Kotlin}
+	\begin{itemize}
+		\item {Android Studio}
+	\end{itemize}
+}
+
+\item {\textsc{Perl}
+	\begin{itemize}
+		\item {Regular expression}
+	\end{itemize}
+}
+
+\item {
+	\textsc{Latex}
+	\begin{itemize}
+		\item {также Latex вставки для Markdown}   
+	\end{itemize}	   		
+}
+
+\item {\textsc{Shell}}
+
+\item {\textsc{Linux}}
+
+\item {\textsc{SQL}}
+
+\end{enumerate}
+
+
+\section*{\Large Языки}
+\begin{tabular}{L!{\VRule}R}
+Russian&Native\\
+{\bf English}&{\bf Intermediate}
+\end{tabular}
+
+\end{document}
